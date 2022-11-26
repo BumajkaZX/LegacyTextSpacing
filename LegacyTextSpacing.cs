@@ -57,8 +57,6 @@ public class LegacyTextSpacing : Text
         {
             for (int i = 0; i < vertCount; ++i)
             {
-                Debug.Log(vertCount);
-                Debug.Log(i / 4);
                 int tempVertsIndex = i & 3;
                 int quadNumber = i / 4;
                 m_TempVerts[tempVertsIndex] = verts[i];
